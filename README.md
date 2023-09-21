@@ -1,7 +1,7 @@
 # DS-Capstone-Project-2023
 
 <br>
-## Course goals
+##Course goals
 <br>
 > This course aims to provide `concepts`, `techniques`, and `tools` to create complex *systems that allow users to communicate in human terms.*
 
