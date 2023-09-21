@@ -1,16 +1,23 @@
 # DS-Capstone-Project-2023
 
 <br>
+
 ## Course goals
+
 <br>
 > This course aims to provide `concepts`, `techniques`, and `tools` to create complex *systems that allow users to communicate in human terms.*
 
 <br>
+
+<aside>
 💬 Create the basis for the student to connect the techniques and tools learned to implement a complex system empowered by AI to resolve some tasks that will be presented over the course.
+</aside>
 
 <br>
+
 > 👉 Main goal: Question Answering System with additional tasks.
-<be>
+
+<br>
 
 ## Course keywords
 
@@ -21,6 +28,7 @@
 - Python App
 
 <br>
+
 ## Syllabus
 
 - Python programming focusing on Object-Oriented design, advanced data manipulation, and Regular Expressions.
@@ -34,7 +42,8 @@
 - Presentations, demonstrations of final projects, collecting feedback, and fine-tuning.
 
 <br>
-## **Teaching methodologies**
+
+## Teaching methodologies
 
 The teaching methodology designed for this curricular unit  involves the following:
 
