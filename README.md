@@ -1,7 +1,7 @@
 # DS-Capstone-Project-2023
 
 <br>
-##Course goals
+## Course goals
 <br>
 > This course aims to provide `concepts`, `techniques`, and `tools` to create complex *systems that allow users to communicate in human terms.*
 
@@ -10,7 +10,8 @@
 
 <br>
 > 👉 Main goal: Question Answering System with additional tasks.
-<br>
+<be>
+
 ## Course keywords
 
 - Prompt Engineering
@@ -20,9 +21,9 @@
 - Python App
 
 <br>
-## **Syllabus**
+## Syllabus
 
-- Python programming with a focus on Object-Oriented design, advanced data manipulation, and Regular Expressions.
+- Python programming focusing on Object-Oriented design, advanced data manipulation, and Regular Expressions.
 - Utilizing Python frameworks for interactive data visualization and App creation (e.g., Panel, Streamlit, Gradio, etc.)
 - Introduction to NLP and its applications in real-world scenarios.
 - Understanding Large Language Models (LLMs) and their capabilities.
