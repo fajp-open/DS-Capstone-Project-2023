@@ -10,7 +10,7 @@
 
 <br>
 
-| Content book: (fernando-courses.notion.site/Capstone-Project)[https://fernando-courses.notion.site/Capstone-Project-19aa25d3e52841f1a4be0a1d7d1715f9?pvs=4]
+| Content book: [fernando-courses.notion.site/Capstone-Project](https://fernando-courses.notion.site/Capstone-Project-19aa25d3e52841f1a4be0a1d7d1715f9?pvs=4)
 
 
 <aside>
