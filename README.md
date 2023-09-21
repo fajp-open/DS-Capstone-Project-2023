@@ -12,6 +12,7 @@
 
 | Content book: [fernando-courses.notion.site/Capstone-Project](https://fernando-courses.notion.site/Capstone-Project-19aa25d3e52841f1a4be0a1d7d1715f9?pvs=4)
 
+<br>
 
 <aside>
 💬 Create the basis for the student to connect the techniques and tools learned to implement a complex system empowered by AI to resolve some tasks that will be presented over the course.
