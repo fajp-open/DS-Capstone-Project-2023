@@ -49,9 +49,12 @@ st.write("You entered:", user_input)
 
 # button
 btn = st.button("Click me")
-if btn:
-    st.write("Button clicked!")
+
 
 # select box
 option = st.selectbox("Choose an option", ["Option 1", "Option 2", "Option 3"])
 st.write("You selected:", option)
+
+if btn:
+    st.write("Button clicked!")
+    st.balloons()
