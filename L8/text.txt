@@ -1,0 +1,84 @@
+# Dialog
+**Albert Einstein:** Gentlemen, our esteemed professor needs help naming his dog. We must find a suitable name that reflects his interests. I'll start with my suggestions. How about "Newton," "Einstein," and "Tesla"? All great scientists and thinkers.
+
+**Nicola Tesla:** I appreciate the scientific theme, Albert, but I'd like to suggest "Edison," "Quantum," and "Tesla." Edison, while a rival, was also a significant figure in the history of electricity.
+
+**Ed Sheeran:** Well, lads, I've got a more musical take on this. How about "Riff," "Tempo," and "Groove"? Rock music and rhythm, that's the way to go.
+
+# Suggestions - the 9 names
+**Albert Einstein:**
+- Newton
+- Einstein
+- Tesla
+
+**Nicola Tesla:**
+- Edison
+- Quantum
+- Tesla
+
+**Ed Sheeran:**
+- Riff
+- Tempo
+- Groove
+
+# Voting and Counting rounds
+**Round 1:**
+- Albert votes for "Tesla."
+- Tesla votes for "Quantum."
+- Ed Sheeran votes for "Riff."
+
+**Counting Round 1:**
+- Tesla: 1 vote
+- Quantum: 1 vote
+- Riff: 1 vote
+
+**Round 2:**
+- Albert votes for "Einstein."
+- Tesla votes for "Edison."
+- Ed Sheeran votes for "Tempo."
+
+**Counting Round 2:**
+- Tesla: 1 vote
+- Quantum: 1 vote
+- Riff: 1 vote
+- Einstein: 1 vote
+- Edison: 1 vote
+- Tempo: 1 vote
+
+**Round 3:**
+- Albert votes for "Newton."
+- Tesla votes for "Tesla."
+- Ed Sheeran votes for "Groove."
+
+**Counting Round 3:**
+- Tesla: 2 votes
+- Quantum: 1 vote
+- Riff: 1 vote
+- Einstein: 1 vote
+- Edison: 1 vote
+- Tempo: 1 vote
+- Newton: 1 vote
+- Groove: 1 vote
+
+# Decision
+**Winner: Tesla**
+
+**Explanation:** Given the tie, we need another round. In this round, we've got "Tesla" with two votes, making it the winner. The name "Tesla" reflects our professor's interest in science and acknowledges the contribution of Nikola Tesla to the world of electricity and engineering.
+
+# JSON
+```json
+{
+  "Albert Einstein": {
+    "Suggestions": ["Newton", "Einstein", "Tesla"],
+    "Votes": ["Tesla", "Einstein", "Newton"]
+  },
+  "Nicola Tesla": {
+    "Suggestions": ["Edison", "Quantum", "Tesla"],
+    "Votes": ["Quantum", "Edison", "Tesla"]
+  },
+  "Ed Sheeran": {
+    "Suggestions": ["Riff", "Tempo", "Groove"],
+    "Votes": ["Riff", "Tempo", "Groove"]
+  }
+}
+```
