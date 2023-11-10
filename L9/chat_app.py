@@ -1,5 +1,8 @@
 """
-Chat Version 2
+Chat Version 3
+    ✅ Chat User and Assistant
+    ✅ History (all messages)
+    ✅ Animation when displaying the assistant message
 
 """
 
@@ -17,7 +20,7 @@ def initialize() -> None:
     """
     Initialize the app
     """
-    st.title("Simple chat (v2)")
+    st.title("Simple chat (v3)")
 
     if "chatbot" not in st.session_state:
         st.session_state.chatbot = ChatBotStatic()
@@ -42,6 +45,10 @@ def display_user_msg(message: str):
     """
     Display user message in chat message container
     """
+    st.session_state.chatbot.memory.append(
+        {"role": "user", "content": message}
+    )
+
     with st.chat_message("user", avatar="😎"):
         st.markdown(message)
 
@@ -80,13 +87,10 @@ def display_assistant_msg(message: str):
 if __name__ == "__main__":
     initialize()
 
+    # [i] Display History #
     display_history_messages()
 
     if prompt := st.chat_input("Type your request..."):
-
-        st.session_state.chatbot.memory.append(
-            {"role": "user", "content": prompt}
-        )
 
         # [*] Request & Response #
         display_user_msg(message=prompt)
@@ -95,5 +99,6 @@ if __name__ == "__main__":
         )
         display_assistant_msg(message=assistant_response)
 
+    # [i] Sidebar #
     with st.sidebar:
         st.write(st.session_state.chatbot.memory)
